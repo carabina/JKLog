@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JKLog_Example' do
+  pod 'JKLog', :path => '../'
+
+  target 'JKLog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
