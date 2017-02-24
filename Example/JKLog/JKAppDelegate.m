@@ -7,12 +7,17 @@
 //
 
 #import "JKAppDelegate.h"
-
+#import "JKViewController.h"
 @implementation JKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    freopen([kPathLog cStringUsingEncoding:NSASCIIStringEncoding], "a+", stderr);
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    JKViewController *vc = [JKViewController new];
+    UINavigationController *naVC=[[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = naVC;
     return YES;
 }
 

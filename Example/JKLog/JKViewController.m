@@ -7,6 +7,7 @@
 //
 
 #import "JKViewController.h"
+#import "JKLogViewController.h"
 
 @interface JKViewController ()
 
@@ -18,6 +19,24 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    self.view.backgroundColor = [UIColor whiteColor];
+    NSLog(@"122323122331332,fhffhfhfhfhfhffhfhfh,122323122331332,fhffhfhfhfhfhffhfhfh,122323122331332,fhffhfhfhfhfhffhfhfh,122323122331332,fhffhfhfhfhfhffhfhfh,122323122331332,fhffhfhfhfhfhffhfhfh,122323122331332,fhffhfhfhfhfhffhfhfh,122323122331332,fhffhfhfhfhfhffhfhfh,122323122331332,fhffhfhfhfhfhffhfhfh,122323122331332,fhffhfhfhfhfhffhfhfh,122323122331332,fhffhfhfhfhfhffhfhfh,122323122331332,fhffhfhfhfhfhffhfhfh,122323122331332,fhffhfhfhfhfhffhfhfh,122323122331332,fhffhfhfhfhfhffhfhfh,122323122331332,fhffhfhfhfhfhffhfhfh,122323122331332,fhffhfhfhfhfhffhfhfh,122323122331332,fhffhfhfhfhfhffhfhfh");
+    UIButton *button = [UIButton new];
+    button.frame = CGRectMake(0, 0, 100, 30);
+    [button setTitle:@"Click here" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    button.center = self.view.center;
+    [button addTarget:self action:@selector(clicked:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+
+-(void)clicked:(UIButton *)button{
+    JKLogViewController *logVC = [JKLogViewController new];
+    logVC.filePath = kPathLog;
+    [self.navigationController presentViewController:logVC animated:YES completion:nil];
+
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E003111E5FF153003BA8A6 /* JKLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E003101E5FF153003BA8A6 /* JKLog.framework */; };
 		2400E3BCA861244161D6E292 /* Pods_JKLog_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51CA87B04D8F1427A1BBD70 /* Pods_JKLog_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,7 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D4C848F572C9C9997C2F55D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		04E003101E5FF153003BA8A6 /* JKLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JKLog.framework; path = "../../../Library/Developer/Xcode/DerivedData/JKLog-flcmtpderxfidbgbujolvvjctfvp/Build/Products/Debug-iphonesimulator/JKLog/JKLog.framework"; sourceTree = "<group>"; };
+		4D4C848F572C9C9997C2F55D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		51619BB9AB88555D40E3C011 /* Pods-JKLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKLog_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKLog_Example/Pods-JKLog_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JKLog_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKLog_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,8 +63,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C5AF0D9FF2870E264D727A0 /* Pods_JKLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		932B24F69BFAD4A3D7DEBA2B /* JKLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JKLog.podspec; path = ../JKLog.podspec; sourceTree = "<group>"; };
-		B164B2C13C382748D6853806 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		932B24F69BFAD4A3D7DEBA2B /* JKLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JKLog.podspec; path = ../JKLog.podspec; sourceTree = "<group>"; };
+		B164B2C13C382748D6853806 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C17716547557985AF733D97B /* Pods-JKLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKLog_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKLog_Tests/Pods-JKLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ECB3AFDFFB1236DF359BC1F8 /* Pods-JKLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKLog_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKLog_Example/Pods-JKLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F0B43EC57317D5D80E151BEC /* Pods-JKLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKLog_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKLog_Tests/Pods-JKLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E003111E5FF153003BA8A6 /* JKLog.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +122,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04E003101E5FF153003BA8A6 /* JKLog.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,

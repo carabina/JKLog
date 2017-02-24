@@ -9,7 +9,13 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+##description
+
+this is a very useful tool to help developer and tester to view the logs in the target app.
+
 ## Requirements
+
+the target is ios7 and later version.
 
 ## Installation
 
@@ -22,7 +28,7 @@ pod "JKLog"
 
 ## Author
 
-HHL110120, 929097264@qq.com
+xindizhiyin2014, 929097264@qq.com
 
 ## License
 
