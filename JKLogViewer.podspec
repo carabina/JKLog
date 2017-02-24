@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JKLogViewer'
-  s.version          = '0.1.0'
-  s.summary          = 'JKLog is a tool for ios developer to check the logs in the developing app.'
+  s.version          = '1.0.2'
+  s.summary          = 'JKLogViewer is a tool for ios developer to check the logs in the developing app.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -33,7 +33,7 @@ JKLog is a tool for ios developer to check the logs in the developing app.
   s.source_files = 'JKLog/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'JKLog' => ['JKLog/Assets/*.png']
+  #   'JKLogViewer' => ['JKLog/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

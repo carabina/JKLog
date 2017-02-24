@@ -63,7 +63,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C5AF0D9FF2870E264D727A0 /* Pods_JKLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		932B24F69BFAD4A3D7DEBA2B /* JKLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JKLog.podspec; path = ../JKLog.podspec; sourceTree = "<group>"; };
+		932B24F69BFAD4A3D7DEBA2B /* JKLogViewer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JKLogViewer.podspec; path = ../JKLogViewer.podspec; sourceTree = "<group>"; };
 		B164B2C13C382748D6853806 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C17716547557985AF733D97B /* Pods-JKLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKLog_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKLog_Tests/Pods-JKLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ECB3AFDFFB1236DF359BC1F8 /* Pods-JKLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKLog_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKLog_Example/Pods-JKLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -182,7 +182,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				932B24F69BFAD4A3D7DEBA2B /* JKLog.podspec */,
+				932B24F69BFAD4A3D7DEBA2B /* JKLogViewer.podspec */,
 				4D4C848F572C9C9997C2F55D /* README.md */,
 				B164B2C13C382748D6853806 /* LICENSE */,
 			);

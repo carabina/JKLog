@@ -1,4 +1,4 @@
-# JKLog
+# JKLogViewer
 
 [![CI Status](http://img.shields.io/travis/HHL110120/JKLog.svg?style=flat)](https://travis-ci.org/HHL110120/JKLog)
 [![Version](https://img.shields.io/cocoapods/v/JKLog.svg?style=flat)](http://cocoapods.org/pods/JKLog)
@@ -23,7 +23,7 @@ JKLog is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "JKLog"
+pod "JKLogViewer"
 ```
 
 ## Author
@@ -32,4 +32,4 @@ xindizhiyin2014, 929097264@qq.com
 
 ## License
 
-JKLog is available under the MIT license. See the LICENSE file for more info.
+JKLogViewer is available under the MIT license. See the LICENSE file for more info.
