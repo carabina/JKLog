@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'JKLog'
+  s.name             = 'JKLogViewer'
   s.version          = '0.1.0'
   s.summary          = 'JKLog is a tool for ios developer to check the logs in the developing app.'
 
